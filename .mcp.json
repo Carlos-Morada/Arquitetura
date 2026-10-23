@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "cadcraft": {
+      "command": "cadcraft-cli",
+      "args": ["mcp", "--connect", "127.0.0.1:7979", "--lazy"]
+    },
+    "cadcraft-headless": {
+      "command": "cadcraft-cli",
+      "args": ["mcp"]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "enabledMcpjsonServers": ["cadcraft", "cadcraft-headless"],
+  "permissions": {
+    "allow": ["mcp__cadcraft", "mcp__cadcraft-headless"]
+  }
+}

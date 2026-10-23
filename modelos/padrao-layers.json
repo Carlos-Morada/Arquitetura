@@ -1,0 +1,25 @@
+{
+  "_descricao": "Padrão de layers da Morada Propriedades. Unidade do desenho: metro. Cores no índice ACI; espessuras em mm. Convenção de reforma (NBR 6492): manter = cinza/preto, demolir = amarelo tracejado, construir = vermelho.",
+  "layers": [
+    {"name": "ARQ-PAREDE-MANTER",    "color": 8,   "linetype": "CONTINUOUS", "lineweight": 0.50, "description": "Alvenaria existente a manter"},
+    {"name": "ARQ-PAREDE-DEMOLIR",   "color": 2,   "linetype": "DASHED",     "lineweight": 0.35, "description": "Alvenaria a demolir (amarelo)"},
+    {"name": "ARQ-PAREDE-CONSTRUIR", "color": 1,   "linetype": "CONTINUOUS", "lineweight": 0.50, "description": "Alvenaria a construir (vermelho)"},
+    {"name": "ARQ-DRYWALL",          "color": 6,   "linetype": "CONTINUOUS", "lineweight": 0.35, "description": "Paredes em drywall"},
+    {"name": "ARQ-ESTRUTURA",        "color": 7,   "linetype": "CONTINUOUS", "lineweight": 0.60, "description": "Pilares, vigas e lajes (não mexer sem projeto estrutural)"},
+    {"name": "ARQ-ESQUADRIA",        "color": 4,   "linetype": "CONTINUOUS", "lineweight": 0.25, "description": "Portas e janelas"},
+    {"name": "ARQ-PISO",             "color": 9,   "linetype": "CONTINUOUS", "lineweight": 0.13, "description": "Paginação e hachura de piso"},
+    {"name": "ARQ-FORRO",            "color": 252, "linetype": "DASHED",     "lineweight": 0.13, "description": "Forro, sancas e projeções"},
+    {"name": "ARQ-MOBILIARIO",       "color": 3,   "linetype": "CONTINUOUS", "lineweight": 0.18, "description": "Marcenaria e mobiliário"},
+    {"name": "ARQ-LOUCAS-METAIS",    "color": 5,   "linetype": "CONTINUOUS", "lineweight": 0.18, "description": "Louças, metais e bancadas"},
+    {"name": "ARQ-COTA",             "color": 7,   "linetype": "CONTINUOUS", "lineweight": 0.18, "description": "Cotas"},
+    {"name": "ARQ-TEXTO",            "color": 7,   "linetype": "CONTINUOUS", "lineweight": 0.18, "description": "Textos, nomes e áreas de ambientes"},
+    {"name": "ARQ-HACHURA",          "color": 253, "linetype": "CONTINUOUS", "lineweight": 0.09, "description": "Hachuras de corte"},
+    {"name": "ARQ-EIXO",             "color": 1,   "linetype": "CENTER",     "lineweight": 0.13, "description": "Eixos e linhas de corte"},
+    {"name": "INST-ELETRICA",        "color": 30,  "linetype": "CONTINUOUS", "lineweight": 0.18, "description": "Pontos elétricos e iluminação"},
+    {"name": "INST-HIDRAULICA",      "color": 140, "linetype": "CONTINUOUS", "lineweight": 0.18, "description": "Água fria/quente e esgoto"},
+    {"name": "TERRENO-DIVISA",       "color": 1,   "linetype": "PHANTOM",    "lineweight": 0.35, "description": "Divisas do lote (incorporação)"},
+    {"name": "TERRENO-AFASTAMENTO",  "color": 30,  "linetype": "DASHED",     "lineweight": 0.18, "description": "Afastamentos e recuos legais (LUOS BH)"},
+    {"name": "FOLHA-CARIMBO",        "color": 7,   "linetype": "CONTINUOUS", "lineweight": 0.25, "description": "Carimbo e moldura da prancha"},
+    {"name": "NAO-IMPRIMIR",         "color": 8,   "linetype": "CONTINUOUS", "lineweight": 0.09, "description": "Auxiliares e referências (plot desligado)", "plot": false}
+  ]
+}

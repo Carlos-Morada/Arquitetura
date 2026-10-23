@@ -1,0 +1,8 @@
+# Backups e temporários de CAD
+*.bak
+*.dwl
+*.dwl2
+*.sv$
+# Renders de verificação gerados pelo Claude
+**/_render/
+__pycache__/
